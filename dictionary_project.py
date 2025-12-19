@@ -37,3 +37,15 @@ igala_dictionary = {
     "hate": "ejo",
     "love": "ufedo"
 }
+
+
+ijaw_dictionary = {
+    "welcome": "nua",
+    "good": "ebi",
+    "goodbye": "di mu",
+    "father": "dau",
+    "mother": "yin",
+    "children": "awo",
+    "fire": "fii",
+    "house": "wari"
+}
