@@ -87,4 +87,28 @@ igbo_dictionary = {
 }
 
 
+yoruba_dictionary = {
+    "hello": "báwo",
+    "welcome": "káàbọ̀",
+    "good morning": "ẹ káàrọ̀",
+    "good afternoon": "ẹ káàsán",
+    "good evening": "ẹ káalẹ́",
+    "thank you": "ẹ ṣé",
+    "please": "jọọ",
+    "yes": "béèni",
+    "no": "rárá",
+    "come": "wá",
+    "go": "lọ",
+    "eat": "jẹun",
+    "drink": "mu",
+    "water": "omi",
+    "food": "oúnjẹ",
+    "house": "ilé",
+    "friend": "ọ̀rẹ́",
+    "father": "bàbá",
+    "mother": "ìyá",
+    "love": "fẹ́ràn",
+    "god": "ọlọ́run"
+}
+
 
