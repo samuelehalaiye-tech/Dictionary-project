@@ -142,3 +142,22 @@ all_languages = {
 }
 
 
+def translator():
+    print("\nAvailable languages:")
+    for lang in all_languages:
+        print("-", lang.title())
+
+    language = input("\nChoose a language: ").lower()
+
+    if language not in all_languages:
+        print(" Language not supported.")
+        return
+
+    word = input("Enter word to translate: ").lower()
+
+    dictionary = all_languages[language]
+
+    if word in dictionary:
+        print(f"Translation ({language.title()}): {dictionary[word]}")
+    else:
+        print(" Word not found in dictionary.")
