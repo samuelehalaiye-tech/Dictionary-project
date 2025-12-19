@@ -49,3 +49,42 @@ ijaw_dictionary = {
     "fire": "fii",
     "house": "wari"
 }
+
+igbo_dictionary = {
+    "hello": "ndeewo",
+    "welcome": "nnọọ",
+    "please": "biko",
+    "thank you": "daalụ",
+    "sorry": "ndo",
+    "yes": "e",
+    "no": "mba",
+    "good morning": "ụtụtụ ọma",
+    "good night": "ka chifoo",
+    "come": "bịa",
+    "go": "gaa",
+    "eat": "rie",
+    "drink": "ñụọ",
+    "water": "mmiri",
+    "food": "nri",
+    "house": "ụlọ",
+    "friend": "enyi",
+    "father": "nna",
+    "mother": "nne",
+    "god": "chukwu",
+    "one": "otu",
+    "two": "abụọ",
+    "three": "atọ",
+    "four": "anọ",
+    "five": "ise",
+    "six": "isii",
+    "seven": "asaa",
+    "eight": "asatọ",
+    "nine": "itoolu",
+    "ten": "iri",
+    "big": "ukwu",
+    "small": "obere",
+    "love": "hụ n'anya"
+}
+
+
+
