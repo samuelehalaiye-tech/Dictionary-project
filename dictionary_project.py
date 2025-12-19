@@ -161,3 +161,14 @@ def translator():
         print(f"Translation ({language.title()}): {dictionary[word]}")
     else:
         print(" Word not found in dictionary.")
+
+
+translator()
+print(" Nigerian Languages Translator")
+
+while True:
+    translator()
+    again = input("\nTranslate another word? (yes/no): ").lower()
+    if again != "yes":
+        print(" Goodbye!")
+        break
