@@ -111,4 +111,12 @@ yoruba_dictionary = {
     "god": "ọlọ́run"
 }
 
+all_languages = {
+    "igala": igala_dictionary,
+    "ijaw": ijaw_dictionary,
+    "igbo": igbo_dictionary,
+    "hausa": hausa_dictionary,
+    "yoruba": yoruba_dictionary
+}
+
 
