@@ -111,6 +111,28 @@ yoruba_dictionary = {
     "god": "ọlọ́run"
 }
 
+hausa_dictionary = {
+    "hello": "sannu",
+    "good morning": "ina kwana",
+    "good afternoon": "ina wuni",
+    "good evening": "ina wuni",
+    "how are you": "ya kika ko ya kake",
+    "i am fine": "ina lafiya lau",
+    "thank you": "na gode",
+    "please": "dan allah",
+    "yes": "eh",
+    "no": "a'a",
+    "come": "zo",
+    "go": "tafi",
+    "food": "abinci",
+    "water": "ruwa",
+    "house": "gida",
+    "friend": "aboki",
+    "father": "baba",
+    "mother": "mama"
+}
+
+
 all_languages = {
     "igala": igala_dictionary,
     "ijaw": ijaw_dictionary,
