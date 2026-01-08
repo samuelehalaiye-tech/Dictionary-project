@@ -1,3 +1,4 @@
+import streamlit as st
 igala_dictionary = {
     "good morning": "olodudu",
     "we": "aˊnyıˊ",
@@ -141,34 +142,23 @@ all_languages = {
     "yoruba": yoruba_dictionary
 }
 
-
 def translator():
-    print("\nAvailable languages:")
+    st.title("Nigerian Language Translator")
+
+    st.sidebar.header("Available Languages")
+
     for lang in all_languages:
-        print("-", lang.title())
+        st.sidebar.write(f"- {lang.title()}")
 
-    language = input("\nChoose a language: ").lower()
+    language=st.selectbox("Choose a language:",options=list(all_languages.keys()) ,key="lang_select")
 
-    if language not in all_languages:
-        print(" Language not supported.")
-        return
+    word =st.text_input("Enter English Word to translate", key= "word_input").lower().strip()
 
-    word = input("Enter word to translate: ").lower()
+    if st.button("Trasnlate"):
+        dictionary=all_languages[language]
+        if word in dictionary:
+            st.success(f"**{word.title()}** in **{language.title()}** is **{dictionary[word]}**")
+        else:
+            st.error(f"The word '{word}' was not found in the {language.title()} dictionary.")
 
-    dictionary = all_languages[language]
-
-    if word in dictionary:
-        print(f"Translation ({language.title()}): {dictionary[word]}")
-    else:
-        print(" Word not found in dictionary.")
-
-
-
-print(" Nigerian Languages Translator")
-
-while True:
-    translator()
-    again = input("\nTranslate another word? (yes/no): ").lower()
-    if again != "yes":
-        print(" Goodbye!")
-        break
+translator()
